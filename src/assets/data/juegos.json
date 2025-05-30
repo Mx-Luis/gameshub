@@ -511,6 +511,74 @@
         "https://play-lh.googleusercontent.com/screenshot2.jpg"
       ],
       "tags": ["MOBA", "Mobile", "5v5", "Estrategia"]
+    },
+    {
+      "id": 16,
+      "nombre": "Gran Turimos 7",
+      "imagen": "https://storage.googleapis.com/pod_public/1300/263094.jpg",
+      "categoria": "Sports",
+      "desarrollador": "Polyphony Digital",
+      "fechaLanzamiento": "2023-09-08",
+      "descripcion": "Gran Turimos 7 presenta un juego de carreros muy entretenido .",
+      "rating": 4.5,
+      "plataformas": ["PC", "PlayStation"],
+      "precio": 69.99,
+      "esGratis": false,
+      "requisitos": {
+        "minimos": {
+          "os": "Windows 10 64-bit",
+          "procesador": "Intel Core i3-2100",
+          "memoria": "4 GB RAM",
+          "graficos": "NVIDIA GeForce GT 450",
+          "almacenamiento": "110 GB"
+        },
+        "recomendados": {
+          "os": "Windows 11 64-bit",
+          "procesador": "Intel Core i5-4430",
+          "memoria": "8 GB RAM",
+          "graficos": "NVIDIA GeForce GTX 770",
+          "almacenamiento": "110 GB"
+        }
+      },
+      "screenshots": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTibok5sYO_7CDjo7yp6ZOX7ejwtRIk7pAsUg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmABmP1_CiF0O6D132Bt4ZltmXd2AU-579XhZF5HKN0GDsw8iqvUU4OsTcchOtV7a5aA&usqp=CAU"
+      ],
+      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
+    },
+    {
+      "id": 17,
+      "nombre": "Gran Turimos 7",
+      "imagen": "https://storage.googleapis.com/pod_public/1300/263094.jpg",
+      "categoria": "Sports",
+      "desarrollador": "Polyphony Digital",
+      "fechaLanzamiento": "2023-09-08",
+      "descripcion": "Gran Turimos 7 presenta un juego de carreros muy entretenido .",
+      "rating": 4.5,
+      "plataformas": ["PC", "PlayStation"],
+      "precio": 69.99,
+      "esGratis": false,
+      "requisitos": {
+        "minimos": {
+          "os": "Windows 10 64-bit",
+          "procesador": "Intel Core i3-2100",
+          "memoria": "4 GB RAM",
+          "graficos": "NVIDIA GeForce GT 450",
+          "almacenamiento": "110 GB"
+        },
+        "recomendados": {
+          "os": "Windows 11 64-bit",
+          "procesador": "Intel Core i5-4430",
+          "memoria": "8 GB RAM",
+          "graficos": "NVIDIA GeForce GTX 770",
+          "almacenamiento": "110 GB"
+        }
+      },
+      "screenshots": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTibok5sYO_7CDjo7yp6ZOX7ejwtRIk7pAsUg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmABmP1_CiF0O6D132Bt4ZltmXd2AU-579XhZF5HKN0GDsw8iqvUU4OsTcchOtV7a5aA&usqp=CAU"
+      ],
+      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
     }
   ],
   "categorias": [
