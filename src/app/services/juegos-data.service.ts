@@ -86,4 +86,12 @@ export class JuegosDataService {
       )
     );
   }
+  getJuegosPorPrecio(Precio: number =2){
+      
+  }
+  getEstadisticas(){
+   
+  }
+
+
 }

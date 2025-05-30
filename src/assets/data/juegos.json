@@ -544,19 +544,19 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTibok5sYO_7CDjo7yp6ZOX7ejwtRIk7pAsUg&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmABmP1_CiF0O6D132Bt4ZltmXd2AU-579XhZF5HKN0GDsw8iqvUU4OsTcchOtV7a5aA&usqp=CAU"
       ],
-      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
+      "tags": ["Deportes", "MyCAREER","Competitivo"]
     },
     {
       "id": 17,
-      "nombre": "Gran Turimos 7",
-      "imagen": "https://storage.googleapis.com/pod_public/1300/263094.jpg",
-      "categoria": "Sports",
-      "desarrollador": "Polyphony Digital",
-      "fechaLanzamiento": "2023-09-08",
-      "descripcion": "Gran Turimos 7 presenta un juego de carreros muy entretenido .",
-      "rating": 4.5,
-      "plataformas": ["PC", "PlayStation"],
-      "precio": 69.99,
+      "nombre": "The Legend of Zelda: BOTW",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "categoria": "Adventure",
+      "desarrollador": "Nintento EPD",
+      "fechaLanzamiento": "2024-09-08",
+      "descripcion": "The Legend of Zelda: BOTW Sumérgete en un mundo de aventuras, exploración y descubrimientos en The Legend of Zelda™.",
+      "rating": 4.9,
+      "plataformas": ["Nintendo Switch"],
+      "precio": 59.99,
       "esGratis": false,
       "requisitos": {
         "minimos": {
@@ -575,10 +575,10 @@
         }
       },
       "screenshots": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTibok5sYO_7CDjo7yp6ZOX7ejwtRIk7pAsUg&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmABmP1_CiF0O6D132Bt4ZltmXd2AU-579XhZF5HKN0GDsw8iqvUU4OsTcchOtV7a5aA&usqp=CAU"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxs150hspUhEleouQQ7le6iqoVGVVx2x44RQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvKxO-clD9acmCOp7CP2GptH6i7IenWCdbkkZrwOr4BdW0-_WvVTHxxajxoM6vM2DmuY&usqp=CAU"
       ],
-      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
+      "tags": ["Mundo Abierto"]
     }
   ],
   "categorias": [
@@ -623,6 +623,15 @@
       "icono": "bi-trophy",
       "descripcion": "Juegos deportivos con simulación realista de diferentes disciplinas",
       "color": "#4ecdc4"
+    },
+    {
+      "id": "adventure",
+      "nombre": "Adventure",
+      "icono": "bi-trophy",
+      "descripcion": "Juegos de aventura con simulación realista",
+      "color": "#4ecdc5"
     }
+    
+
   ]
 }
