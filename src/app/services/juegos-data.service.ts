@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject, map } from 'rxjs';
 import { Juego } from '../interfaces/juego.interface';
+import { Estadisticas } from '../interfaces/estadisticas.interface';
+
+
 
 @Injectable({
   providedIn: 'root'
@@ -86,12 +89,15 @@ export class JuegosDataService {
       )
     );
   }
-  getJuegosPorPrecio(Precio: number =2){
-      
+  getJuegosPorPrecio(min: number, max: number): Observable<Juego[]> {
+    return this.juegos$.pipe(
+      map(juegos => juegos.filter(juego =>
+        juego.precio >= min && juego.precio <= max
+      ))
+    );
   }
   getEstadisticas(){
-   
+    
   }
 
-
-}
+} 

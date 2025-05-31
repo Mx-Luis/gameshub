@@ -16,6 +16,9 @@ import { FiltrosComponent } from '../filtros/filtros.component';
   styleUrl: './lista-juegos.component.css'
 })
 export class ListaJuegosComponent implements OnInit {
+  juegosOriginales: Juego[] = [];
+  juegosOrdenados: Juego[] = [];
+  criterioOrden: string = 'nombre';
   juegos$!: Observable<Juego[]>;
   juegosFiltrados$!: Observable<Juego[]>;
   
@@ -125,6 +128,18 @@ export class ListaJuegosComponent implements OnInit {
       ...this.filtrosSubject.value,
       busqueda: this.terminoBusqueda,
       categoria: this.categoriaSeleccionada
+    });
+  }
+  ordenarJuegos(): void {
+    this.juegosOrdenados = [...this.juegosOriginales].sort((a, b) => {
+      switch (this.criterioOrden) {
+        case 'nombre':
+          return a.nombre.localeCompare(b.nombre);
+        case 'precio':
+          return (a.precio || 0)-(b.precio || 0);
+        default:
+          return 0;
+      }
     });
   }
 }

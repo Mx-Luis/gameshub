@@ -12,12 +12,14 @@
         </h1>
         <div class="search-bar">
           <div class="input-group">
+            
             <input
               type="text"
               class="form-control input-gaming"
               placeholder="Buscar juegos, desarrolladores o categorías..."
               [(ngModel)]="terminoBusqueda"
               (keyup.enter)="buscar()">
+
             <button class="btn btn-gaming" type="button" (click)="buscar()">
               <i class="bi bi-search"></i>
             </button>

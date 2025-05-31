@@ -53,4 +53,5 @@ export class FiltrosComponent {
     this.filtros.rating = this.filtros.rating === rating ? 0 : rating;
     this.onFiltroChange();
   }
+  
 }

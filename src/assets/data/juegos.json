@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nombre": "Fortnite",
-      "imagen": "https://cdn2.unrealengine.com/fortnite-og-social-share-1920x1080-685342852.jpg",
+      "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/fortnite/2x1_NSwitch_Fortnite_20250502.jpg",
       "categoria": "Battle Royale",
       "desarrollador": "Epic Games",
       "fechaLanzamiento": "2017-07-25",
@@ -627,9 +627,9 @@
     {
       "id": "adventure",
       "nombre": "Adventure",
-      "icono": "bi-trophy",
+      "icono": "bi-compass",
       "descripcion": "Juegos de aventura con simulación realista",
-      "color": "#4ecdc5"
+      "color": "#9b59b6"
     }
     
 
